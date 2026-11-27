@@ -18,10 +18,10 @@ pip install sounddevice scipy
 1. ENVIAR UN MENSAJE A UN ARCHIVO WAV
 
 
-# Mensaje en claro
+Mensaje en claro
 python sonocrypt.py send "hola mundo"
 
-# Mensaje cifrado con contrasena
+ Mensaje cifrado con contrasena
 python sonocrypt.py send "mensaje secreto" "mi-clave"
 
 Genera "mensaje.wav" en la carpeta actual
@@ -32,10 +32,10 @@ Genera "mensaje.wav" en la carpeta actual
 2. RECIBIR/DECODIFICAR UN ARCHIVO WAV
 
 
-# Mensaje en claro
+Mensaje en claro
 python sonocrypt.py recv mensaje.wav
 
-# Mensaje cifrado (misma contrasena usada al enviar)
+ Mensaje cifrado (misma contrasena usada al enviar)
 python sonocrypt.py recv mensaje.wav "mi-clave"
 
 Devuelve el texto, o None si la clave es incorrecta o el
