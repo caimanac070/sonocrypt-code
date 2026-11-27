@@ -1,6 +1,5 @@
-==========================================================
+
 SONOCRYPT - GUIA RAPIDA
-==========================================================
 
 Transmision de mensajes de texto por audio (data-over-sound)
 con cifrado AES-256-GCM opcional.
